@@ -11,7 +11,8 @@ public class LoginServlet {
                 Thread.sleep(500);
             }
             passwordRef = password;
-            System.out.println("usernmae = " + userNameRef + " pasword = " + passwordRef);
+            System.out.println("usernmae = " + userName + " pasword = " + password);
+            System.out.println("userNameRef = " + userNameRef + " passwordRef = " + passwordRef);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
